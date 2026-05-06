@@ -301,8 +301,10 @@ main.landing .prose p.spacer-top {
 
 .platform-row {
   display: flex;
-  gap: 18px;
+  gap: 14px;
   align-items: center;
+  margin-top: -32px;
+  margin-bottom: 40px;
 }
 
 .platform-row a,
@@ -319,8 +321,8 @@ main.landing .prose p.spacer-top {
 }
 
 .platform-row svg {
-  width: 22px;
-  height: 22px;
+  width: 16px;
+  height: 16px;
 }
 
 .linklist .links-inline {
