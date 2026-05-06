@@ -294,3 +294,22 @@ main > *:nth-child(3) { animation-delay: 0.16s; }
   from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+  .linklist .links-inline {
+    display: flex;
+    gap: 14px;
+    font-family: var(--sans);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .linklist .links-inline a {
+    color: var(--fg-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .linklist .links-inline a:hover {
+    color: var(--fg);
+  }
