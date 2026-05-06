@@ -303,11 +303,37 @@ main.landing .prose p.spacer-top {
   display: flex;
   gap: 14px;
   align-items: center;
-  margin-top: -32px;
-  margin-bottom: 40px;
+  margin-top: -28px;
+  margin-bottom: 36px;
+  line-height: 1;
 }
 
-.platform-row a,
+.platform-row a {
+  color: var(--fg-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  transition: color 0.2s ease;
+}
+
+.platform-row a:hover {
+  color: var(--fg);
+}
+
+.platform-row a svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+.linklist .links-inline {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
 .linklist .links-inline a {
   color: var(--fg-muted);
   display: inline-flex;
@@ -315,20 +341,8 @@ main.landing .prose p.spacer-top {
   transition: color 0.2s ease;
 }
 
-.platform-row a:hover,
 .linklist .links-inline a:hover {
   color: var(--fg);
-}
-
-.platform-row svg {
-  width: 16px;
-  height: 16px;
-}
-
-.linklist .links-inline {
-  display: flex;
-  gap: 14px;
-  align-items: center;
 }
 
 .linklist .links-inline svg {
