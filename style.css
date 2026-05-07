@@ -303,7 +303,7 @@ main.landing .prose p.spacer-top {
   display: flex;
   gap: 14px;
   align-items: center;
-  margin-top: -28px;
+  margin-top: 12px;
   margin-bottom: 36px;
   line-height: 1;
 }
