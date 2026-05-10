@@ -300,52 +300,21 @@ main.landing .prose p.spacer-top {
 }
 
 .platform-row {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-  margin-top: 12px;
-  margin-bottom: 36px;
-  line-height: 1;
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--fg-muted);
+  margin-top: 6px;
 }
 
 .platform-row a {
   color: var(--fg-muted);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 18px;
-  height: 18px;
-  transition: color 0.2s ease;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
 }
 
 .platform-row a:hover {
-  color: var(--fg);
-}
-
-.platform-row a svg {
-  width: 18px;
-  height: 18px;
-  display: block;
-}
-
-.linklist .links-inline {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-}
-
-.linklist .links-inline a {
-  color: var(--fg-muted);
-  display: inline-flex;
-  align-items: center;
-  transition: color 0.2s ease;
-}
-
-.linklist .links-inline a:hover {
-  color: var(--fg);
-}
-
-.linklist .links-inline svg {
-  width: 18px;
-  height: 18px;
+  text-decoration-color: var(--accent);
 }
