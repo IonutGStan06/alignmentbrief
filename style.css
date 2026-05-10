@@ -86,8 +86,8 @@ main.landing {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  padding: 64px 0;
+  justify-content: flex-start;
+  padding: 48px 0 64px;
   max-width: 560px;
 }
 
@@ -300,21 +300,43 @@ main.landing .prose p.spacer-top {
 }
 
 .platform-row {
-  font-family: var(--serif);
-  font-size: 16px;
-  color: var(--fg-muted);
-  margin-top: 6px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
-.platform-row a {
-  color: var(--fg-muted);
-  text-decoration: underline;
-  text-decoration-color: var(--rule);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  transition: text-decoration-color 0.2s ease;
+.platform-row-top {
+  margin-top: 8px;
+  margin-bottom: 28px;
 }
 
-.platform-row a:hover {
-  text-decoration-color: var(--accent);
+.platform-row a,
+.linklist .links-inline a {
+  color: var(--fg-muted);
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.2s ease;
+}
+
+.platform-row a:hover,
+.linklist .links-inline a:hover {
+  color: var(--fg);
+}
+
+.platform-row svg {
+  width: 16px;
+  height: 16px;
+}
+
+.linklist .links-inline {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.linklist .links-inline svg {
+  width: 16px;
+  height: 16px;
 }
