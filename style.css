@@ -341,3 +341,14 @@ main.landing .prose p.spacer-top {
   width: 16px;
   height: 16px;
 }
+
+.linklist li.article-entry .row {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.linklist li.article-entry .author {
+  white-space: normal;
+  margin-top: 2px;
+}
