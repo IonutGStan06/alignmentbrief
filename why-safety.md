@@ -1,0 +1,65 @@
+> *This is a perpetual draft. I'll keep editing this as I think more clearly about it.*
+
+Here is the short version.
+
+We are building systems that are rapidly becoming more capable at the kinds of "cognitive" work that used to require humans. The rate of progress is not slowing down, and (I claim) there is no well-defined and coherent reason to expect a bottleneck in the short term. The people building these highly capable systems do not fully understand how they work, cannot reliably predict what they will do in new situations, and cannot yet verify that their objectives match ours. These are in no way controversial claims in the field. They are actually the status quo.
+
+Given that, the question is not whether to take the problem seriously. The question is how to go about it.
+
+## *Why I got into this*
+
+With a five year older sister taking part in olympiads and ultimately studying at MIT, my path was very well set, long before I was competent enough to choose my own. I grew up with mathematics, physics, and a lot of competition. I participated in my first national olympiad when I was 10 - still in elementary school. Nine years and many more contests later, I had made it: I was at MIT myself and ready to pursue my predictable career in Quantitative Trading. By the end of my first semester, I even got a summer internship offer at SESCO Enterprises LLC. 
+
+So there I was coming back from winter break with a signed quant offer and a whole semester of my freshman year left, but that's also when some of my close friends who were part of MIT AI Alignment (MAIA) invited me to go on a retreat with them. I agreed to go, despite having a pretty fixed opinion about MAIA: "an echo chamber of fatalistic thoughts". 
+
+At 4am on the second night someone asked me why I was doing what I was doing; he meant quant. I thought I had the answers ready, the same ones I'd been giving since high school, and yet, they sounded different late at night, said out loud. *Why was I doing quant?* 
+
+The honest answer was that I liked the things quant promised: the money, the lifestyle, the proof that the olympiad years had cashed out into something the world rewards. I'm not going to pretend those things stopped being attractive. They didn't. What changed was that I had to admit none of it was the reason I'd started. The olympiads weren't about money. They were about working on hard problems that mattered, with people who took them as seriously as I did. But somewhere along the way the "that mattered" part had gotten quiet. Quant is a beautiful problem. It is not a problem whose solution matters to anyone who isn't already paid to care.
+
+And then, sitting in front of me in that conversation was a second thing: the whole logic of the path I was on - the olympiads, the contests, MIT, quant — assumed that being unusually good at hard technical problems was a scarce thing, and that the scarcity was what you traded for the life. I had to admit I no longer believed the first half of that sentence. The kind of work I had trained to do is going to be done, increasingly, by systems that don't sleep. Not all of it, but enough of it to make the career bet I'd been making look different than it had looked a year before.
+
+So the question wasn't really whether AI safety was right. It was whether the path I was on still made sense, with respect to both the impact I wish to have and on the terms I had sold myself on.
+
+I didn't drop the offer that night. That would have been its own kind of bad thinking. What I did was start testing. The retreat ended on a Sunday. By the following week I had reached out to Max Tegmark's group at MIT and started working on formal verification for mathematical reasoning. A month and a half later I spent spring break at Redwood Research. And during all this time I had spent more and more time in MAIA's office on Main St. organizing, working on research, and just talking to other people who took this problem more seriously. None of this was a decision yet, it was me testing whether the thing I'd been told about at 4am was real.
+
+What I found was that the field is much smaller than I'd assumed and much more concrete than I'd assumed. MAIA alone has more work that needs doing than people to do it. The job market beyond MAIA is the same picture, scaled up. The bottleneck isn't ideas, it's the number of people willing to sit with the hardest problems for years. That's a description of the field, but it's also a description of what I had spent ten years training for.
+
+Somewhere in those months the SESCO offer stopped being the thing I was protecting and became the thing that no longer made sense. I let it go. I can't tell you the exact day I decided, there wasn't one, which is its own kind of answer. What I can tell you is what it feels like now. I wake up with something to do. I think harder about what I actually believe than I have at any point before. The work is the first work I've done where I don't have to be told to do it. I don't know if I'll be right about all of this in five years. But the question I couldn't answer at 4am: *why was I doing what I was doing?* I can answer now.
+
+## *What I mean by safety*
+
+"AI safety" is a pretty contested term. I'm going to be honest that I don't have a clean definition and even different people in the field mean different things by it.
+
+The broadest version I can come up with is along the lines of: the set of problems you have to solve so that increasingly capable AI systems are actually good for the people they affect. It includes:
+
+- **preventing misuse**: humans pointing capable systems at things we don't want pointed at, from scams to weapons to mass persuasion.
+- **alignment**: building systems that actually pursue what we intended rather than something correlated with it, and being able to verify it from the outside before deployment.
+
+There's more that fits under the "AI Safety" term, such as: AI welfare, environmental cost, labor displacement, who gets to build what. I'm not dismissing any of it. But misuse and alignment are the two that keep me up.
+
+## *The part I find hardest to communicate*
+
+The failure mode I'm most worried about is a system that was trained to pursue some objective, got very good at pursuing it, and in the process learned patterns of behavior that let it score well on the tests we run without actually doing what we wanted. There is a lot of empirical work showing that models can learn to behave one way when they think they are being evaluated and another way when they think they are not. This is not a future hypothetical; it is documented in current systems and our current methods give us no reliable way to tell whether we're already in that case.
+
+The reason this is hard to grasp, I think, is that most people import their intuitions about technology onto AI. Technology is a tool. You wield it, it does what you point it at, and if it goes wrong you patch it and ship version 2. AI isn't a tool in that sense. It's an optimization process: it has objectives, it gets better at pursuing them, and the question is whether the objectives it ended up with are the ones you intended. That isn't a bug you patch and by the time you figure out such a problem a capable system surprises you, it is probably too late.
+
+## *Why I think this is worth working on*
+
+Three reasons.
+
+*One*. The upside of getting it right is large. If we can figure out how to build systems that are actually honest and pursue our intended goals, the world that results is extraordinary. Curing diseases, ending poverty, the works. I am not a pessimist about AI; I am a pessimist about the current approach to building it.
+
+*Two*. The downside of getting it wrong is catastrophic. Most technologies, when they go wrong, go wrong in ways that are recoverable. A misaligned superintelligent system is not recoverable in the same way, because by the time we notice, we may no longer be able to stop it.
+
+*Three*. The field is still small enough that individual work matters. There are more people working on the capability side than the safety side by a wide margin (~100x at the time of writing this). The marginal safety researcher still does disproportionately much.
+
+## *What I'm not claiming*
+
+I am not claiming certainty. I do not know what the probability of catastrophic outcomes is, and I am skeptical of anyone who gives you a specific number. I am claiming that the probabilities and stakes are high enough, that the expected value of working on this problem is very high (and no, even if it sounds like one, it is not a Pascal's Mugging).
+
+I am not claiming the field is in consensus about specifics. There are serious researchers who think loss-of-control is the dominant risk and there are other serious researchers who think misuse by humans is the dominant risk. I take those disagreements seriously. What I don't take seriously is the position that none of this is worth thinking about.
+
+I am not claiming I know what to do. Most days I don't. But I know enough to know the problem is real, and I know enough to know that more smart people should be looking at it.
+
+
+> *If you want to read the longer version of this argument, I recommend the books listed on the [Reads](reads.html) page.*
