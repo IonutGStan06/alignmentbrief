@@ -1,4 +1,4 @@
-> *This is a perpetual draft. I'll keep editing this as I think more clearly about it.*
+> *This is a perpetual draft. I'll keep editing this as I think more about it.*
 
 Here is the short version.
 
