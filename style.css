@@ -139,14 +139,6 @@ main.landing {
   filter: grayscale(0.18) contrast(1.02);
   display: block;
   margin-bottom: 36One change to style.css. Don't touch any other file.
-
-1. Increase the space between the bottom of the portrait and the h1 name. On .portrait-lg, change margin-bottom to 36px on desktop, 28px on mobile.
-
-2. Decrease the space between the h1 name and the social icons row. On .socials, change margin-top to 4px (or 6px if 4 looks too tight).
-
-Do not introduce em-dashes anywhere in the output.
-
-Show me a unified diff. Don't commit or push.px;
 }
 
 /* CONTENT PAGES */
