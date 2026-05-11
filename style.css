@@ -97,7 +97,7 @@ main.landing {
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: -0.005em;
-  margin-bottom: 28px;
+  margin-bottom: 6px;
 }
 
 .landing .prose p {
@@ -127,7 +127,7 @@ main.landing {
   color: var(--fg-muted);
   font-size: 18px;
   margin-top: 36px;
-  margin-bottom: 24px;
+  margin-bottom: 36px;
 }
 
 .portrait-lg {
