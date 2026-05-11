@@ -138,6 +138,7 @@ main.landing {
   object-position: center 20%;
   filter: grayscale(0.18) contrast(1.02);
   display: block;
+  margin-bottom: 20px;
 }
 
 /* CONTENT PAGES */
